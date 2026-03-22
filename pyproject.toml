@@ -10,6 +10,8 @@ uvicorn = {extras = ["standard"], version = "^0.27.0"}
 pydantic-settings = "^2.2.0"
 supabase = "^2.3.0"
 stripe = "^8.0.0"
+slowapi = "^0.1.9"
+structlog = "^24.1.0"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.0.0"
